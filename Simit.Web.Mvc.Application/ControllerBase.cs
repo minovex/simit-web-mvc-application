@@ -238,8 +238,6 @@
                             {
                                 string message = string.IsNullOrEmpty(attribute.Message) ? this.GetReourceProperty(attribute.MessageResourceType, attribute.MessageResourceName) : attribute.Message;
 
-                                string formattedMessage = message;
-
                                 if (!overrideForNextPage && attribute.ForNextPage)
                                 {
                                     this.AddMessageForNextPage(attribute.Type, message);
