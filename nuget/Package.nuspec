@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Simit.Web.MVC.Application</id>
+    <version>1.0.0</version>
+    <authors>Mustafa Ozan Vural</authors>
+    <owners>Minovex</owners>
+    <projectUrl>https://github.com/minovex/simit-web-mvc-application</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simit Web MVC Application Library</description>
+    <tags>Simit C# MVC</tags>
+	<dependencies>
+      <dependency id="Simit.ComponentModel.DataAnnotations" version="1.1.1" />
+	  <dependency id="Simit.Web.Mvc.Application.Extensions" version="1.0.0" />
+    </dependencies>
+  </metadata>
+</package>
